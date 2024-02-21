@@ -17,10 +17,12 @@ class CustomDialog extends StatelessWidget {
       actions: <Widget>[
         TextButton(
           onPressed: callback,
-          child: Text(actionText),
+          child: Text(
+            actionText,
+            style: TextStyle(color: Colors.white), // Explicitly set text color here
+          ),
           style: TextButton.styleFrom(
-            primary: Colors.white, // This is the text color
-            backgroundColor: Colors.pink[200], // Background color
+            backgroundColor: Colors.pink[200], // Set background color here
           ),
         )
       ],

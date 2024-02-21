@@ -106,8 +106,7 @@ class _HomePageState extends State<HomePage> {
           height: 100.0,
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: buttonsList[i].bg, // background color
-              onPrimary: Colors.pink[200], // foreground (text) color
+              foregroundColor: Colors.pink[200], backgroundColor: buttonsList[i].bg, // foreground (text) color
             ),
             onPressed: buttonsList[i].enabled
                 ? () => playGame(buttonsList[i])

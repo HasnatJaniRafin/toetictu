@@ -1,0 +1,1 @@
+ /Users/mac/Desktop/Software_Project/Google\ playstore/madaas/toetictu/.dart_tool/flutter_build/61c5fa2a6133375388c734bdab13189b/native_assets.yaml: 
