@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.iqgamebuild.pairgamebaby.pairgamebaby"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="2.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
@@ -22,7 +22,7 @@
 19-->[androidx.core:core:1.6.0] /Users/mac/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-22        android:label="pairgamebaby" >
+22        android:label="TicTactoe" >
 23        <activity
 24            android:name="com.iqgamebuild.pairgamebaby.pairgamebaby.MainActivity"
 25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

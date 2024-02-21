@@ -5,7 +5,11 @@ class RulesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Game Rules & Policy'),
+        title: Text(
+          'Game Rules & Policy',
+          style: TextStyle(color: Colors.white), // Set the text color to white
+        ),
+
         backgroundColor: Colors.deepPurple, // You can choose a color that fits your app theme
       ),
       body: SingleChildScrollView(
@@ -46,7 +50,7 @@ class RulesPage extends StatelessWidget {
             Text(
               'Our Multiplayer Tic Tac Toe game respects your privacy and is committed to protecting any personal information you provide while using our service. We may collect certain information for the purpose of enhancing your gaming experience, such as your username, gameplay statistics, and device information. This information is used solely for internal purposes and will not be shared with third parties without your consent.\n\n'
               'We may also collect non-personal information through the use of cookies and similar technologies to improve our service and analyze user trends. This information is aggregated and used for statistical purposes only.\n\n'
-              'By using our Multiplayer Tic Tac Toe game, you consent to the collection and use of your information as outlined in this Privacy Policy. We reserve the right to update or modify this policy at any time, and any changes will be reflected on this page. If you have any questions or concerns about our Privacy Policy, please contact us.\n',
+              'By using our Multiplayer Tic Tac Toe game, you consent to the collection and use of your information as outlined in this Privacy Policy. We reserve the right to update or modify this policy at any time, and any changes will be reflected on this page. If you have any questions or concerns about our Privacy Policy, please contact us : abegailescalicas30@gmail.com\n',
               style: TextStyle(
                 fontSize: 18,
                 color: Colors.black54,

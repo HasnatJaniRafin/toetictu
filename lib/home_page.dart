@@ -88,7 +88,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Multiple Player TicTacToe'),
+        title: Text(
+          'Multiple Player TicTacToe',
+          style: TextStyle(color: Colors.white), // Set the text color to white
+        ),
         backgroundColor: Colors.blue[900],
         centerTitle: true,
       ),

@@ -5,7 +5,10 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('About Game history'),
+        title: Text(
+          'About Game history',
+          style: TextStyle(color: Colors.white), // Set the text color to white
+        ),
         backgroundColor: Colors.pink[300], // You can choose a color that fits your app theme
       ),
       body: SingleChildScrollView(
